@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot | Developed By Prothes</title>
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css">
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Atomic+Age&family=Concert+One&family=Croissant+One&family=Kenia&family=Lobster&family=Nosifer&display=swap" rel="stylesheet">
+    <!-- Fonts Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+
+
+    <div class=" text-center d-flex align-items-center justify-content-center contnt">
+        <div>
+            <h1 class="fnt">Chat-Bot</h1>
+            <h4 class="fnt">Developed By Prothes</h4>
+        </div>
+    </div>
+    
+
+    <!-- ChatBot -->
+    <button class="chatbot-toggler">
+        <span>
+            <i class="fa-solid fa-message fa-beat" style="color: #ffffff;"></i>
+        </span>
+        <span>
+            <i class="fa-solid fa-xmark fa-beat" style="color: #ffffff;"></i>
+        </span>
+    </button>
+    
+
+    <div class="chatbot">
+        <div class="chatbot-header">
+            <h2 class="fnt" style="color: white; opacity: 1;">Chatbot</h2>
+            <p class="fnt" style="color: white; opacity: 1;">
+                Developed By Prothes
+            </p>
+            <span class="close-btn">
+                <i class="fa-solid fa-xmark fa-beat" style="color: #ffffff;"></i>
+            </span>
+        </div>
+
+        <ul class="chatbox">
+            <li class="chat incoming">
+                <span>
+                    <i class="fa-solid fa-robot fa-beat" style="color: #ffffff;"></i>
+                </span>
+                <p>Hi there 👋<br>How can I help you today?</p>
+            </li>
+        </ul>
+
+        <div class="chat-input">
+            <textarea placeholder="Enter a message..." spellcheck="false" required></textarea>
+            <span id="send-btn">
+                <i class="fa-solid fa-paper-plane fa-beat" style="color: #0bceaf;"></i>
+            </span>
+        </div>
+    </div>
+  
+
+  <!-- Bootstrap Js -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script src="main.js"></script>
+</body>
+</html>
